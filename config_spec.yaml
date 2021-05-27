@@ -124,6 +124,11 @@ advanced:
   name: "Advanced"
   description: "Advanced Settings"
   spec:
+    testnet:
+      type: boolean
+      name: Testnet
+      description: Use Testnet3 instead of Mainnet
+      default: false
     mempool:
       type: object
       nullable: false
